@@ -12,7 +12,7 @@ print(frase.replace('Python', 'Android')) #replace não muda a string, pois não
 #frase = frase.replace('Python', 'Android')
 print('Curso' in frase)
 print(frase.find('Curso'))
-print(frase.split())
+print(frase.split()) 
 dividido = frase.split()
 print(dividido[2][3]) #terceira palavra, quarta letra
 
