@@ -2,8 +2,10 @@
   "python.analysis.typeCheckingMode": "off",
   "python.analysis.autoImportCompletions": false,
   "cSpell.language": "en,pt-BR",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "ms-python.black-formatter",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay"
 }
