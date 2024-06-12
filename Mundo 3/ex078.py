@@ -16,4 +16,3 @@ print(f"\nO menor valor digitado foi {min} nas posições", end=" ")
 for p, n in enumerate(lista):
     if n == min:
         print(p, end=" ")
-
