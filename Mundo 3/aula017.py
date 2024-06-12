@@ -12,7 +12,7 @@ lista = [3, 5, 6, 1]
 lista[1] = 3  # listas são mutáveis
 # num[4] = 7 não funciona, pois valores não são adicionados dessa maneira
 lista.append(7)
-lista.insert(2, 9)
+lista.insert(2, 9) #Insere o valor 9 na posição 2 e sobe todos de posição
 lista.pop()  # elimina o último elemento se o parênteses estiver vazio
 # elimina o primeiro elemento 3, e não na posição 3. Elimina somente a primeira ocorrência
 lista.remove(3)
