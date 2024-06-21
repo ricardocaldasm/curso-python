@@ -7,4 +7,4 @@ for i in range(1, 8):
         lista[1].append(valor)
 lista[0].sort()
 lista[1].sort()
-print(f'Os valores {lista[0]} são pares e o valores {lista[1]} são ímpares.')
+print(f"Os valores {lista[0]} são pares e o valores {lista[1]} são ímpares.")
