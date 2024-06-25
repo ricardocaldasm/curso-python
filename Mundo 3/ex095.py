@@ -24,23 +24,24 @@ while True:
     if opt in 'N':
         break
 
-print(time)
-
 for k in time[0].keys():
-    print(k, end = " ")
+    print(f'{k:<15}', end = " ")
 
 print()
 for i,j in enumerate(time):
     for v in j.values():
-        print(v, end=" ")
+        print(f'{str(v):<15}', end=" ")
     print()
 
 while True:
     dados = int(input("Mostrar dados de qual jogador? (0 para sair) "))
-    if dados != 0:
-        for i,j in enumerate(time):
-            if j['cod'] == dados:
-                for k,v in j.items():
-                    print(v)
+    if dados > len(time) or dados < 0:
+        print('Dado inválido. Favor digite o código correto.')
+    elif dados != 0:
+        print(f'Levantamento do jogador {time[dados-1]['nome']}.')
+        for i,j in enumerate (time):
+            if dados == j['cod']:
+                for o,p in enumerate(j['gols']):
+                    print(f'No jogo {o+1} fez {p} gols.')
     if dados == 0:
         break
