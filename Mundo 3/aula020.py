@@ -5,7 +5,7 @@ def soma(a, b):
 
 
 def contador(*num):
-    # * é utilizado para desempacotar. Neste caso, é quando o número de parâmetros é variável.
+    # * é utilizado para desempacotar. Neste caso, é quando o número de parâmetros é variável. Valores em tupla
     tam = len(num)
     print(f"Recebi os valores {num} e são ao todo {tam} números.")
 
