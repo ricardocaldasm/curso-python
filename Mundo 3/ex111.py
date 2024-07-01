@@ -1,5 +1,5 @@
-import ex110
+from ex111.utilidades import moeda
 
 preco = float(input("Digite o preço: R$"))
 taxa = float(input("Digite a taxa em %: "))
-ex110.resumo(preco, taxa)
+moeda.resumo(preco, taxa)
